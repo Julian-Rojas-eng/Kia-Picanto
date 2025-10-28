@@ -18,7 +18,7 @@ public class LuxuryRim extends AccessoryDecorator{
     }
     
     @Override
-    public double getPrice(){
+    public int getPrice(){
         return decoratedVehicle.getPrice() + 500000;
     }
     

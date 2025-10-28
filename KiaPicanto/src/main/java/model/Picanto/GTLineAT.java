@@ -14,7 +14,7 @@ public class GTLineAT implements Vehicle{
     }
     
     @Override
-    public double getPrice(){
+    public int getPrice(){
         return 75000000;
     }
 }

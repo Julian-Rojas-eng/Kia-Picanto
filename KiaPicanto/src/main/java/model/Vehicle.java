@@ -6,5 +6,5 @@ package model;
 
 public interface Vehicle {
     String getDescription();
-    double getPrice();
+    int getPrice();
 }

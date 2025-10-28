@@ -18,7 +18,7 @@ public class ParkingSensor extends AccessoryDecorator{
     }
     
     @Override
-    public double getPrice(){
+    public int getPrice(){
         return decoratedVehicle.getPrice() + 150000;
     }
     

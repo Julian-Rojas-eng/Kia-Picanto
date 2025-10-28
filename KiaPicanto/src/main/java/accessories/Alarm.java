@@ -18,7 +18,7 @@ public class Alarm extends AccessoryDecorator{
     }
     
     @Override
-    public double getPrice(){
+    public int getPrice(){
         return decoratedVehicle.getPrice() + 205000;
     }
     

@@ -14,7 +14,7 @@ public class ZenithMT implements Vehicle{
     }
     
     @Override
-    public double getPrice(){
+    public int getPrice(){
         return 65000000;
     }
 }

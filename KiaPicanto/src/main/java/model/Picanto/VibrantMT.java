@@ -14,7 +14,7 @@ public class VibrantMT implements Vehicle {
     }
     
     @Override
-    public double getPrice(){
+    public int getPrice(){
         return 60000000;
     }
 }

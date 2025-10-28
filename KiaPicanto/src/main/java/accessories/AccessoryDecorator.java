@@ -20,7 +20,7 @@ public abstract class AccessoryDecorator implements Vehicle {
     }
     
     @Override
-    public double getPrice(){
+    public int getPrice(){
         return decoratedVehicle.getPrice();
     }
 }
